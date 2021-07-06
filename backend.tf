@@ -1,8 +1,8 @@
 terraform {
   backend "azurerm" {
-    storage_account_name = "lzdeploytfstatelatam"
-    container_name       = "lzdpltfstatecontainer"
-    key                  = "terraform-centossbd.tfstate"
+    storage_account_name = ""
+    container_name       = ""
+    key                  = ".tfstate"
     resource_group_name  = "LATAMPSSandbox"
   }
 }
